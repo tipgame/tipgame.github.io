@@ -62878,7 +62878,7 @@ s=p}while(true)switch(s){case 0:i=new U.VK()
 i.b=a.b
 i.a=a.a
 p=4
-l=P.au2("http","localhost:8080","api/v1/login",null)
+l=P.au2("https","node178085-tipgame.jelastic.dogado.eu:443","api/v1/login",null)
 k=t.N
 k=P.aB(["Content-Type","application/json","Access-Control-Allow-Origin","*"],k,k)
 s=7
