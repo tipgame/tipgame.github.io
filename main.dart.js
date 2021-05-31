@@ -83660,7 +83660,7 @@ i=H.e7(J.aT(m.a,"userToken"))
 l=i==null?"":i
 h=t.N
 s=8
-return P.P(G.axa(P.U7("http","node178085-tipgame.jelastic.dogado","api/v1/user/",null),P.aP(["Content-Type","application/json","X-Authorization",l,"Authorization",C.b.O("Bearer ",l)],h,h)),$async$tq)
+return P.P(G.axa(P.U7("https","node178085-tipgame.jelastic.dogado","api/v1/user/",null),P.aP(["Content-Type","application/json","X-Authorization",l,"Authorization",C.b.O("Bearer ",l)],h,h)),$async$tq)
 case 8:k=b
 if(k.b===200){h=k
 h=C.ac.d6(0,B.apJ(U.ap5(h.e).c.a.i(0,"charset")).d6(0,h.x))
@@ -83744,7 +83744,7 @@ a3_:function(a){var s=0,r=P.a2(t.N),q,p=2,o,n=[],m,l,k,j,i,h,g
 var $async$ov=P.Y(function(b,c){if(b===1){o=c
 s=p}while(true)switch(s){case 0:h=new N.a3f(a.b,a.a)
 p=4
-k=P.U7("http","node178085-tipgame.jelastic.dogado","api/v1/auth/login",null)
+k=P.U7("https","node178085-tipgame.jelastic.dogado","api/v1/auth/login",null)
 j=t.N
 j=P.aP(["Content-Type","application/json","Access-Control-Allow-Origin","*"],j,j)
 s=7
@@ -83790,7 +83790,7 @@ i.a=a.a
 i.c=a.c
 i.d=a.d
 p=4
-l=P.U7("http","node178085-tipgame.jelastic.dogado","api/v1/auth/register",null)
+l=P.U7("https","node178085-tipgame.jelastic.dogado","api/v1/auth/register",null)
 k=t.N
 k=P.aP(["Content-Type","application/json","Access-Control-Allow-Origin","*"],k,k)
 s=7
