@@ -83565,7 +83565,7 @@ j=H.e7(J.aT(m.a,"userToken"))
 l=j==null?"":j
 i=t.N
 s=8
-return P.P(G.axa(P.U7("http",a,b,null),P.aP(["Content-Type","application/json","Access-Control-Allow-Origin","*","X-Authorization",l,"Authorization",C.b.O("Bearer ",l)],i,i)),$async$j8)
+return P.P(G.axa(P.U7("https",a,b,null),P.aP(["Content-Type","application/json","Access-Control-Allow-Origin","*","X-Authorization",l,"Authorization",C.b.O("Bearer ",l)],i,i)),$async$j8)
 case 8:k=e
 if(k.b===200){i=k
 i=B.apJ(U.ap5(i.e).c.a.i(0,"charset")).d6(0,i.x)
@@ -83595,7 +83595,7 @@ return P.P(V.mM(),$async$uB)
 case 7:m=a0
 j=H.e7(J.aT(m.a,"userToken"))
 l=j==null?"":j
-i=P.U7("http",a,b,null)
+i=P.U7("https",a,b,null)
 h=t.N
 h=P.aP(["Content-Type","application/json","Access-Control-Allow-Origin","*","X-Authorization",l,"Authorization",C.b.O("Bearer ",l)],h,h)
 s=8
