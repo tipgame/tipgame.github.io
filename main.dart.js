@@ -85548,7 +85548,7 @@ j=H.eg(J.aX(m.a,"userToken"))
 l=j==null?"":j
 i=t.N
 s=8
-return P.P(G.azb(P.UY("http",a,b,null),P.aH(["Content-Type","application/json","Access-Control-Allow-Origin","*","X-Authorization",l,"Authorization",C.b.R("Bearer ",l)],i,i)),$async$kc)
+return P.P(G.azb(P.UY("https",a,b,null),P.aH(["Content-Type","application/json","Access-Control-Allow-Origin","*","X-Authorization",l,"Authorization",C.b.R("Bearer ",l)],i,i)),$async$kc)
 case 8:k=e
 if(k.b===200){i=k
 i=B.arE(U.aqZ(i.e).c.a.i(0,"charset")).d7(0,i.x)
@@ -85578,7 +85578,7 @@ return P.P(V.mZ(),$async$qE)
 case 7:m=a0
 j=H.eg(J.aX(m.a,"userToken"))
 l=j==null?"":j
-i=P.UY("http",a,b,null)
+i=P.UY("https",a,b,null)
 h=t.N
 h=P.aH(["Content-Type","application/json","Access-Control-Allow-Origin","*","X-Authorization",l,"Authorization",C.b.R("Bearer ",l)],h,h)
 s=8
@@ -85645,7 +85645,7 @@ i=H.eg(J.aX(m.a,"userToken"))
 l=i==null?"":i
 h=t.N
 s=8
-return P.P(G.azb(P.UY("http","tipgame.jelastic.dogado.eu","api/v1/user/",null),P.aH(["Content-Type","application/json","X-Authorization",l,"Authorization",C.b.R("Bearer ",l)],h,h)),$async$tW)
+return P.P(G.azb(P.UY("https","tipgame.jelastic.dogado.eu","api/v1/user/",null),P.aH(["Content-Type","application/json","X-Authorization",l,"Authorization",C.b.R("Bearer ",l)],h,h)),$async$tW)
 case 8:k=b
 if(k.b===200){h=k
 j=B.awH(C.al.d7(0,B.arE(U.aqZ(h.e).c.a.i(0,"charset")).d7(0,h.x)))
