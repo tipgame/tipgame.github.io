@@ -85175,7 +85175,7 @@ d2:function(a){var s=0,r=P.a5(t.Zj),q,p=2,o,n=[],m=this,l,k,j,i,h
 var $async$d2=P.a0(function(b,c){if(b===1){o=c
 s=p}while(true)switch(s){case 0:p=4
 s=7
-return P.P(m.e.kc("localhost:8080","api/v1/statistic/teamrank","Die Daten konnten nicht geladen werden."),$async$d2)
+return P.P(m.e.kc("tipgame.jelastic.dogado.eu","api/v1/statistic/teamrank","Die Daten konnten nicht geladen werden."),$async$d2)
 case 7:l=c
 k=J.iU(C.al.d7(0,l),t.a)
 j=J.k6(k,new G.ac1(),t.Q9).ft(0)
@@ -85235,10 +85235,10 @@ var $async$d2=P.a0(function(b,c){if(b===1){o=c
 s=p}while(true)switch(s){case 0:p=4
 h=m.x
 s=7
-return P.P(h.kc("localhost:8080","api/v1/tipp/","Die Daten konnten nicht geladen werden."),$async$d2)
+return P.P(h.kc("tipgame.jelastic.dogado.eu","api/v1/tipp/","Die Daten konnten nicht geladen werden."),$async$d2)
 case 7:l=c
 s=8
-return P.P(h.kc("localhost:8080","api/v1/user/","Zusatztipps konnten nicht gelesen werden."),$async$d2)
+return P.P(h.kc("tipgame.jelastic.dogado.eu","api/v1/user/","Zusatztipps konnten nicht gelesen werden."),$async$d2)
 case 8:k=c
 j=B.awH(C.al.d7(0,k))
 if(j.f!=="")m.r=j.f
@@ -85272,7 +85272,7 @@ n.toString
 p=q.f
 p.toString
 s=2
-return P.P(q.x.qE("localhost:8080","api/v1/tipp/additional",new B.a8D(n,p),"Die Tipps konnten nicht gespeichert werden."),$async$vN)
+return P.P(q.x.qE("tipgame.jelastic.dogado.eu","api/v1/tipp/additional",new B.a8D(n,p),"Die Tipps konnten nicht gespeichert werden."),$async$vN)
 case 2:p=q.c
 p.toString
 n=K.hH(p,!0).c
@@ -85367,7 +85367,7 @@ d2:function(a){var s=0,r=P.a5(t.mp),q,p=2,o,n=[],m=this,l,k,j,i,h
 var $async$d2=P.a0(function(b,c){if(b===1){o=c
 s=p}while(true)switch(s){case 0:p=4
 s=7
-return P.P(m.e.kc("localhost:8080","api/v1/statistic/userpointstrend","Die Daten konnten nicht geladen werden."),$async$d2)
+return P.P(m.e.kc("tipgame.jelastic.dogado.eu","api/v1/statistic/userpointstrend","Die Daten konnten nicht geladen werden."),$async$d2)
 case 7:l=c
 k=J.iU(C.al.d7(0,l),t.a)
 j=J.k6(k,new F.adf(),t.R7).ft(0)
@@ -85438,7 +85438,7 @@ d2:function(a){var s=0,r=P.a5(t.t3),q,p=2,o,n=[],m=this,l,k,j,i,h
 var $async$d2=P.a0(function(b,c){if(b===1){o=c
 s=p}while(true)switch(s){case 0:p=4
 s=7
-return P.P(m.e.kc("localhost:8080","api/v1/statistic/userrankdata","Die Daten konnten nicht geladen werden."),$async$d2)
+return P.P(m.e.kc("tipgame.jelastic.dogado.eu","api/v1/statistic/userrankdata","Die Daten konnten nicht geladen werden."),$async$d2)
 case 7:l=c
 k=J.iU(C.al.d7(0,l),t.a)
 j=J.k6(k,new D.adi(),t.H4).ft(0)
@@ -85525,7 +85525,7 @@ $0:function(){var s,r=this.a,q=r.d,p=r.e.a.a
 q.z=p
 s=r.f.a.a
 q.Q=s
-r.r.qE("localhost:8080","api/v1/tipp/",new F.a8E(s,p,q.ch),"Der Tipp konnte nicht gespeichert werden.")
+r.r.qE("tipgame.jelastic.dogado.eu","api/v1/tipp/",new F.a8E(s,p,q.ch),"Der Tipp konnte nicht gespeichert werden.")
 r.amp(0)
 K.hH(this.b,!1).qF(0,null)
 return null},
@@ -85645,7 +85645,7 @@ i=H.eg(J.aX(m.a,"userToken"))
 l=i==null?"":i
 h=t.N
 s=8
-return P.P(G.azb(P.UY("http","localhost:8080","api/v1/user/",null),P.aH(["Content-Type","application/json","X-Authorization",l,"Authorization",C.b.R("Bearer ",l)],h,h)),$async$tW)
+return P.P(G.azb(P.UY("http","tipgame.jelastic.dogado.eu","api/v1/user/",null),P.aH(["Content-Type","application/json","X-Authorization",l,"Authorization",C.b.R("Bearer ",l)],h,h)),$async$tW)
 case 8:k=b
 if(k.b===200){h=k
 j=B.awH(C.al.d7(0,B.arE(U.aqZ(h.e).c.a.i(0,"charset")).d7(0,h.x)))
@@ -85720,7 +85720,7 @@ a4e:function(a){var s=0,r=P.a5(t.N),q,p=2,o,n=[],m,l,k,j,i,h,g
 var $async$oP=P.a0(function(b,c){if(b===1){o=c
 s=p}while(true)switch(s){case 0:h=new N.a4e(a.a,a.b)
 p=4
-k=P.UY("https","localhost:8080","api/v1/auth/login",null)
+k=P.UY("https","tipgame.jelastic.dogado.eu","api/v1/auth/login",null)
 j=t.N
 j=P.aH(["Content-Type","application/json","Access-Control-Allow-Origin","*"],j,j)
 s=7
@@ -85766,7 +85766,7 @@ i.a=a.a
 i.c=a.c
 i.d=a.d
 p=4
-l=P.UY("https","localhost:8080","api/v1/auth/register",null)
+l=P.UY("https","tipgame.jelastic.dogado.eu","api/v1/auth/register",null)
 k=t.N
 k=P.aH(["Content-Type","application/json","Access-Control-Allow-Origin","*"],k,k)
 s=7
@@ -85814,7 +85814,7 @@ d2:function(a){var s=0,r=P.a5(t.yp),q,p=2,o,n=[],m=this,l,k,j,i
 var $async$d2=P.a0(function(b,c){if(b===1){o=c
 s=p}while(true)switch(s){case 0:p=4
 s=7
-return P.P(m.f.kc("localhost:8080","api/v1/news","Die Daten konnten nicht geladen werden."),$async$d2)
+return P.P(m.f.kc("tipgame.jelastic.dogado.eu","api/v1/news","Die Daten konnten nicht geladen werden."),$async$d2)
 case 7:l=c
 k=J.iU(t.j.a(C.al.Fz(0,l,null)),t.N)
 q=k
