@@ -4,14 +4,14 @@ const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
   "version.json": "604574915a2f8425c4d0c57dda0ca9c9",
-"index.html": "647effad96cd6a3ec63e230a50d141de",
-"/": "647effad96cd6a3ec63e230a50d141de",
-"main.dart.js": "48470430801ecc20cc79efd04f8a7051",
+"index.html": "e2977ccaf1acaa975be7affaeb462409",
+"/": "e2977ccaf1acaa975be7affaeb462409",
+"main.dart.js": "e53b8ca5a1350a2608520b8b400e049d",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "manifest.json": "b2af66d97ab92f76ac34b249359107ed",
-"assets/AssetManifest.json": "5d7d15712658f26e6cd0acee41a5a314",
+"assets/AssetManifest.json": "fb5928a7f1c04b4e71cdbd4a875756ae",
 "assets/NOTICES": "641b6c671dba663b66eebfbd422baf86",
 "assets/FontManifest.json": "3ddd9b2ab1c2ae162d46e3cc7b78ba88",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-solid-900.ttf": "dffd9504fcb1894620fa41c700172994",
