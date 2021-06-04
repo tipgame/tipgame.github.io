@@ -86853,7 +86853,7 @@ a4s:function(a){var s=0,r=P.Z(t.N),q,p=2,o,n=[],m,l,k,j,i,h,g
 var $async$p1=P.V(function(b,c){if(b===1){o=c
 s=p}while(true)switch(s){case 0:h=new N.a4y(a.a,a.b)
 p=4
-k=P.Vf("http",u._,"api/v1/auth/login",null)
+k=P.Vf("https",u._,"api/v1/auth/login",null)
 j=t.N
 j=P.aI(["Content-Type","application/json","Access-Control-Allow-Origin","*"],j,j)
 s=7
@@ -86903,7 +86903,7 @@ i.c=a.c
 i.d=a.d
 i.e=a.e
 p=4
-l=P.Vf("http",u._,"api/v1/auth/register",null)
+l=P.Vf("https",u._,"api/v1/auth/register",null)
 k=t.N
 k=P.aI(["Content-Type","application/json","Access-Control-Allow-Origin","*"],k,k)
 s=7
