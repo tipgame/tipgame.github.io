@@ -86638,7 +86638,7 @@ i=H.ej(J.aN(m.a,"userToken"))
 l=i==null?"":i
 h=t.N
 s=8
-return P.H(G.azW(P.Vf("https",a,b,null),P.aI(["Content-Type","application/json","Access-Control-Allow-Origin","*","X-Authorization",l,"Authorization",C.b.P("Bearer ",l)],h,h)),$async$hr)
+return P.H(G.azW(P.Vf("http",a,b,null),P.aI(["Content-Type","application/json","Access-Control-Allow-Origin","*","X-Authorization",l,"Authorization",C.b.P("Bearer ",l)],h,h)),$async$hr)
 case 8:k=e
 s=k.b===200?9:11
 break
@@ -86679,7 +86679,7 @@ return P.H(V.e4(),$async$n7)
 case 7:m=a1
 i=H.ej(J.aN(m.a,"userToken"))
 l=i==null?"":i
-h=P.Vf("https",a,b,null)
+h=P.Vf("http",a,b,null)
 g=t.N
 g=P.aI(["Content-Type","application/json","Access-Control-Allow-Origin","*","X-Authorization",l,"Authorization",C.b.P("Bearer ",l)],g,g)
 s=8
@@ -86763,7 +86763,7 @@ h=H.ej(J.aN(m.a,"userToken"))
 l=h==null?"":h
 g=t.N
 s=8
-return P.H(G.azW(P.Vf("https",u._,"api/v1/user/",null),P.aI(["Content-Type","application/json","X-Authorization",l,"Authorization",C.b.P("Bearer ",l)],g,g)),$async$o0)
+return P.H(G.azW(P.Vf("http",u._,"api/v1/user/",null),P.aI(["Content-Type","application/json","X-Authorization",l,"Authorization",C.b.P("Bearer ",l)],g,g)),$async$o0)
 case 8:k=c
 s=k.b===200?9:11
 break
@@ -86853,7 +86853,7 @@ a4s:function(a){var s=0,r=P.Z(t.N),q,p=2,o,n=[],m,l,k,j,i,h,g
 var $async$p1=P.V(function(b,c){if(b===1){o=c
 s=p}while(true)switch(s){case 0:h=new N.a4y(a.a,a.b)
 p=4
-k=P.Vf("https",u._,"api/v1/auth/login",null)
+k=P.Vf("http",u._,"api/v1/auth/login",null)
 j=t.N
 j=P.aI(["Content-Type","application/json","Access-Control-Allow-Origin","*"],j,j)
 s=7
@@ -86903,7 +86903,7 @@ i.c=a.c
 i.d=a.d
 i.e=a.e
 p=4
-l=P.Vf("https",u._,"api/v1/auth/register",null)
+l=P.Vf("http",u._,"api/v1/auth/register",null)
 k=t.N
 k=P.aI(["Content-Type","application/json","Access-Control-Allow-Origin","*"],k,k)
 s=7
