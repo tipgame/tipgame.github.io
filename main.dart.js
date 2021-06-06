@@ -22357,14 +22357,14 @@ aB5:function(a,b,c){var s,r=L.oX(C.Oj,C.k,null,28),q=C.lb.h(0,600)
 q.toString
 s=C.lb.h(0,400)
 s.toString
-r=N.aw_(new T.jH(C.vU,C.m3,C.ek,H.a([q,s],t.t_),null,null),C.xv,r,c,new E.apI(),b,t.z)
+r=N.aw_(new T.jH(C.vU,C.m3,C.ek,H.a([q,s],t.t_),null,null),C.xu,r,c,new E.apI(),b,t.z)
 r.rq(0,a)
 return r},
 atg:function(a,b,c){var s,r=L.oX(C.Ok,C.k,null,28),q=C.fh.h(0,600)
 q.toString
 s=C.fh.h(0,400)
 s.toString
-r=N.aw_(new T.jH(C.vU,C.m3,C.ek,H.a([q,s],t.t_),null,null),C.xv,r,c,new E.apH(),b,t.z)
+r=N.aw_(new T.jH(C.vU,C.m3,C.ek,H.a([q,s],t.t_),null,null),C.xu,r,c,new E.apH(),b,t.z)
 r.rq(0,a)
 return r},
 apI:function apI(){},
@@ -47716,7 +47716,7 @@ o=t.Y
 j=$.aBB()
 i=o.i("fx<a9.T>")
 q.dx=new R.N(l.a(m),new R.fx(j,new R.a0(s*0.3,s+5,o),i),i.i("N<a9.T>"))
-p=G.b7(h,C.xu,0,h,1,h,p)
+p=G.b7(h,C.xt,0,h,1,h,p)
 p.cW()
 i=p.bg$
 i.b=!0
@@ -47743,7 +47743,7 @@ s.bK(0)
 this.gpd().bK(0)
 s=this.gt9()
 s.Q=C.aI
-s.kA(1,C.R,C.xu)},
+s.kA(1,C.R,C.xt)},
 be:function(a){var s,r,q=this
 q.gpd().dF(0)
 s=1-q.gpd().gc3()
@@ -87042,7 +87042,7 @@ r=this.a
 q=r.agK()
 p=H.bc(2021,6,11,13,0,0,0,!1)
 if(!H.aV(p))H.b(H.aX(p))
-p=new P.b_(Date.now(),!1).oU(C.xt).a>p?n:new L.adI(r)
+p=new P.b_(Date.now(),!1).oU(C.xv).a>p?n:new L.adI(r)
 o=t.p
 p=V.ew(T.ck(H.a([new T.az(new V.M(10,10,10,10),s,n),q,new T.yz(T.cJ(C.at,H.a([new T.eJ(C.M,n,n,M.aq(n,new T.az(new V.M(10,10,10,10),D.avQ(L.am("Tipp abgeben",n,n,n,n,n,n,n,$.Xm(),n,n,n),p),n),C.h,n,n,n,n,n,n,n,n,n,n,n),n)],o),C.B,C.Z,n,n),n)],o),C.G,C.O,C.I),10)
 m=J.bJ(m)
@@ -87274,7 +87274,7 @@ new B.XG(a,new F.XH(!0),"Tippen",T.ck(H.a([o,V.ew(Z.arC(!0,p,!1,p,r,p,p,p,2,L.a4
 ay:function(){this.aQ()},
 amQ:function(a){this.aw(new A.aez())},
 P:function(a,b){var s,r,q,p,o,n,m=null,l=this.d
-l=new P.b_(Date.now(),!1).oU(C.xt).a>l.e.a?m:new A.aey(this,b)
+l=new P.b_(Date.now(),!1).oU(C.xv).a>l.e.a?m:new A.aey(this,b)
 l=M.aq(m,D.avQ(L.am("Tippen",m,m,m,m,m,m,m,$.Xm(),m,m,m),l),C.h,m,m,m,m,m,m,m,m,m,m,m)
 s=this.d
 r=s.z
@@ -91268,15 +91268,15 @@ C.xr=new P.aP(27e4)
 C.xs=new P.aP(271e3)
 C.Ny=new P.aP(2961926e3)
 C.cU=new P.aP(3e5)
-C.xt=new P.aP(36e8)
-C.xu=new P.aP(375e3)
+C.xt=new P.aP(375e3)
 C.Nz=new P.aP(4e4)
 C.r0=new P.aP(4e5)
-C.xv=new P.aP(4e6)
+C.xu=new P.aP(4e6)
 C.kq=new P.aP(5e4)
 C.kr=new P.aP(5e5)
 C.NA=new P.aP(5e6)
 C.mu=new P.aP(6e5)
+C.xv=new P.aP(6e7)
 C.xw=new P.aP(75e3)
 C.NB=new P.aP(-38e3)
 C.NC=new V.eR(16,0,24,0)
