@@ -99816,7 +99816,7 @@ s=p}while(true)switch(s){case 0:p=4
 k=n.c
 k.toString
 s=7
-return A.J(n.d.dJ("localhost:8081","/api/v1/admin/matches",k),$async$aI)
+return A.J(n.d.dJ("rest.das-ifba-tippspiel.com","/api/v1/admin/matches",k),$async$aI)
 case 7:m=c
 l=J.cj(B.T.ce(0,m),t.P)
 k=J.eY(l,new A.a1N(),t.wX).d2(0)
@@ -99846,7 +99846,7 @@ alQ(a,b){var s=0,r=A.W(t.z),q=1,p,o=this,n,m,l
 var $async$zA=A.X(function(c,d){if(c===1){p=d
 s=q}while(true)switch(s){case 0:q=3
 s=6
-return A.J(A.aOt(o.d.hs("localhost:8081","/api/v1/admin/matches/result",A.aM(["matchId",b.a,"resultHomeTeam",o.r.a.a,"resultAwayTeam",o.f.a.a],t.N,t.X),a),new A.a1O(),t.H,t.K),$async$zA)
+return A.J(A.aOt(o.d.hs("rest.das-ifba-tippspiel.com","/api/v1/admin/matches/result",A.aM(["matchId",b.a,"resultHomeTeam",o.r.a.a,"resultAwayTeam",o.f.a.a],t.N,t.X),a),new A.a1O(),t.H,t.K),$async$zA)
 case 6:q=1
 s=5
 break
@@ -99931,7 +99931,7 @@ var $async$zz=A.X(function(b,c){if(b===1){p=c
 s=q}while(true)switch(s){case 0:q=3
 n=t.N
 s=6
-return A.J(o.d.hs("localhost:8081","/api/v1/admin/match",A.aM(["homeTeam",o.f.a.a,"awayTeam",o.r.a.a,"kickOff",o.w.a.a,"prelimGroup",o.x.a.a,"round",o.y.a.a,"awayTeamShortName","","homeTeamShortName",""],n,n),a),$async$zz)
+return A.J(o.d.hs("rest.das-ifba-tippspiel.com","/api/v1/admin/match",A.aM(["homeTeam",o.f.a.a,"awayTeam",o.r.a.a,"kickOff",o.w.a.a,"prelimGroup",o.x.a.a,"round",o.y.a.a,"awayTeamShortName","","homeTeamShortName",""],n,n),a),$async$zz)
 case 6:q=1
 s=5
 break
@@ -99967,7 +99967,7 @@ n=J
 m=t.j
 l=B.T
 s=3
-return A.J(p.w.dJ("localhost:8081","api/v1/messages",o),$async$aI)
+return A.J(p.w.dJ("rest.das-ifba-tippspiel.com","api/v1/messages",o),$async$aI)
 case 3:q=n.cj(m.a(l.Fu(0,c,null)),t.N)
 s=1
 break
@@ -100007,7 +100007,7 @@ n=J
 m=J
 l=B.T
 s=3
-return A.J(p.e.dJ("localhost:8081","api/v1/team",o),$async$aI)
+return A.J(p.e.dJ("rest.das-ifba-tippspiel.com","api/v1/team",o),$async$aI)
 case 3:q=n.eY(m.cj(l.ce(0,c),t.P),new A.a4S(),t.Q9).d2(0)
 s=1
 break
@@ -100068,7 +100068,7 @@ n=J
 m=J
 l=B.T
 s=3
-return A.J(p.e.dJ("localhost:8081","api/v1/history/individualtopvalues",o),$async$aI)
+return A.J(p.e.dJ("rest.das-ifba-tippspiel.com","api/v1/history/individualtopvalues",o),$async$aI)
 case 3:q=n.eY(m.cj(l.ce(0,c),t.P),new A.aa6(),t.GD).d2(0)
 s=1
 break
@@ -100122,7 +100122,7 @@ n=J
 m=J
 l=B.T
 s=3
-return A.J(p.e.dJ("localhost:8081","api/v1/history/ranking",o),$async$aI)
+return A.J(p.e.dJ("rest.das-ifba-tippspiel.com","api/v1/history/ranking",o),$async$aI)
 case 3:q=n.eY(m.cj(l.ce(0,c),t.P),new A.aa9(),t.s9).d2(0)
 s=1
 break
@@ -100200,7 +100200,7 @@ n=J
 m=J
 l=B.T
 s=3
-return A.J(p.e.dJ("localhost:8081","/api/v1/history/teams",o),$async$aI)
+return A.J(p.e.dJ("rest.das-ifba-tippspiel.com","/api/v1/history/teams",o),$async$aI)
 case 3:q=n.eY(m.cj(l.ce(0,c),t.P),new A.aac(),t.T6).d2(0)
 s=1
 break
@@ -100258,7 +100258,7 @@ n=J
 m=J
 l=B.T
 s=3
-return A.J(p.e.dJ("localhost:8081","/api/v1/history/toprank",o),$async$aI)
+return A.J(p.e.dJ("rest.das-ifba-tippspiel.com","/api/v1/history/toprank",o),$async$aI)
 case 3:q=n.eY(m.cj(l.ce(0,c),t.P),new A.aaf(),t.Ky).d2(0)
 s=1
 break
@@ -100310,7 +100310,7 @@ n=J
 m=J
 l=B.T
 s=3
-return A.J(p.e.dJ("localhost:8081","/api/v1/history/worldrank",o),$async$aI)
+return A.J(p.e.dJ("rest.das-ifba-tippspiel.com","/api/v1/history/worldrank",o),$async$aI)
 case 3:q=n.eY(m.cj(l.ce(0,c),t.P),new A.aaj(),t.Xw).d2(0)
 s=1
 break
@@ -101774,7 +101774,7 @@ s=p}while(true)switch(s){case 0:p=4
 k=n.c
 k.toString
 s=7
-return A.J(n.e.dJ("localhost:8081","api/v1/user/",k),$async$aI)
+return A.J(n.e.dJ("rest.das-ifba-tippspiel.com","api/v1/user/",k),$async$aI)
 case 7:m=c
 l=A.azS(B.T.ce(0,m))
 q=l
@@ -101818,7 +101818,7 @@ s=p}while(true)switch(s){case 0:p=4
 k=n.c
 k.toString
 s=7
-return A.J(n.r.dJ("localhost:8081","api/v1/user/",k),$async$aI)
+return A.J(n.r.dJ("rest.das-ifba-tippspiel.com","api/v1/user/",k),$async$aI)
 case 7:m=c
 l=A.azS(B.T.ce(0,m))
 n.f=l.w
@@ -101852,7 +101852,7 @@ s=p}while(true)switch(s){case 0:p=4
 m=n.c
 m.toString
 s=7
-return A.J(n.r.la("localhost:8081","/api/v1/messages/markasread",m),$async$zc)
+return A.J(n.r.la("rest.das-ifba-tippspiel.com","/api/v1/messages/markasread",m),$async$zc)
 case 7:p=2
 s=6
 break
@@ -101932,7 +101932,7 @@ n=J
 m=J
 l=B.T
 s=3
-return A.J(p.e.dJ("localhost:8081","api/v1/statistic/teamrank",o),$async$aI)
+return A.J(p.e.dJ("rest.das-ifba-tippspiel.com","api/v1/statistic/teamrank",o),$async$aI)
 case 3:q=n.eY(m.cj(l.ce(0,c),t.P),new A.akT(),t.Q9).d2(0)
 s=1
 break
@@ -101985,7 +101985,7 @@ n=J
 m=J
 l=B.T
 s=3
-return A.J(p.e.dJ("localhost:8081","api/v1/statistic/teamrankdata",o),$async$aI)
+return A.J(p.e.dJ("rest.das-ifba-tippspiel.com","api/v1/statistic/teamrankdata",o),$async$aI)
 case 3:q=n.eY(m.cj(l.ce(0,c),t.P),new A.akW(),t.Q9).d2(0)
 s=1
 break
@@ -102027,18 +102027,18 @@ while(true)switch(s){case 0:l=p.x
 k=p.c
 k.toString
 s=3
-return A.J(l.dJ("localhost:8081","api/v1/tipp/",k),$async$aI)
+return A.J(l.dJ("rest.das-ifba-tippspiel.com","api/v1/tipp/",k),$async$aI)
 case 3:o=c
 k=p.c
 k.toString
 s=4
-return A.J(l.dJ("localhost:8081","api/v1/user/",k),$async$aI)
+return A.J(l.dJ("rest.das-ifba-tippspiel.com","api/v1/user/",k),$async$aI)
 case 4:n=c
 k=p.c
 k.toString
 j=A
 s=5
-return A.J(l.dJ("localhost:8081","/api/v1/tipp/remainingJoker",k),$async$aI)
+return A.J(l.dJ("rest.das-ifba-tippspiel.com","/api/v1/tipp/remainingJoker",k),$async$aI)
 case 5:p.w=j.ec(c,null)
 m=A.azS(B.T.ce(0,n))
 l=m.e
@@ -102059,7 +102059,7 @@ if(p==null)p=""
 o=q.c
 o.toString
 s=2
-return A.J(q.x.hs("localhost:8081","api/v1/tipp/additional",new A.agL(n,p),o),$async$vg)
+return A.J(q.x.hs("rest.das-ifba-tippspiel.com","api/v1/tipp/additional",new A.agL(n,p),o),$async$vg)
 case 2:o=q.c
 o.toString
 A.aBp(new A.alP(),o,t.z)
@@ -102090,7 +102090,7 @@ s=1
 break}o=p.c
 o.toString
 s=3
-return A.J(p.x.hs("localhost:8081","/api/v1/tipp/joker",new A.agN(a,b),o),$async$vh)
+return A.J(p.x.hs("rest.das-ifba-tippspiel.com","/api/v1/tipp/joker",new A.agN(a,b),o),$async$vh)
 case 3:o=p.c
 o.toString
 A.aBp(new A.alT(p,b),o,t.z)
@@ -102234,7 +102234,7 @@ n=J
 m=J
 l=B.T
 s=3
-return A.J(p.e.dJ("localhost:8081","api/v1/statistic/userpointstrend",o),$async$aI)
+return A.J(p.e.dJ("rest.das-ifba-tippspiel.com","api/v1/statistic/userpointstrend",o),$async$aI)
 case 3:o=n.eY(m.cj(l.ce(0,c),t.P),new A.amO(),t.R7).d2(0)
 p.d=o
 B.c.d0(o,new A.amP())
@@ -102299,7 +102299,7 @@ n=J
 m=J
 l=B.T
 s=3
-return A.J(p.e.dJ("localhost:8081","api/v1/statistic/userrankdata",o),$async$aI)
+return A.J(p.e.dJ("rest.das-ifba-tippspiel.com","api/v1/statistic/userrankdata",o),$async$aI)
 case 3:q=n.eY(m.cj(l.ce(0,c),t.P),new A.amS(),t.gB).d2(0)
 s=1
 break
@@ -102354,7 +102354,7 @@ m=q.f
 p=A.CU(m.a.a,null)
 o.z=p==null?null:p
 s=2
-return A.J(q.r.hs("localhost:8081","api/v1/tipp/",new A.agO(m.a.a,n.a.a,q.d.Q),a),$async$wP)
+return A.J(q.r.hs("rest.das-ifba-tippspiel.com","api/v1/tipp/",new A.agO(m.a.a,n.a.a,q.d.Q),a),$async$wP)
 case 2:q.HI(0)
 A.ha(a,!1).uC(null)
 return A.U(null,r)}})
@@ -102405,7 +102405,7 @@ i=A.cw(J.aa(n.a,"userToken"))
 m=i==null?"":i
 h=t.N
 s=8
-return A.J(A.aWB(A.a_x("http",a,b,null),A.aM(["Content-Type","application/json","Access-Control-Allow-Origin","*","X-Authorization",m,"Authorization",B.b.R("Bearer ",m)],h,h)),$async$dJ)
+return A.J(A.aWB(A.a_x("https",a,b,null),A.aM(["Content-Type","application/json","Access-Control-Allow-Origin","*","X-Authorization",m,"Authorization",B.b.R("Bearer ",m)],h,h)),$async$dJ)
 case 8:l=e
 s=l.b===200?9:11
 break
@@ -102458,7 +102458,7 @@ return A.J(A.eP(),$async$hs)
 case 7:n=a1
 i=A.cw(J.aa(n.a,"userToken"))
 m=i==null?"":i
-h=A.a_x("http",a,b,null)
+h=A.a_x("https",a,b,null)
 g=t.N
 g=A.aM(["Content-Type","application/json","Access-Control-Allow-Origin","*","X-Authorization",m,"Authorization",B.b.R("Bearer ",m)],g,g)
 s=8
@@ -102515,7 +102515,7 @@ i=A.cw(J.aa(n.a,"userToken"))
 m=i==null?"":i
 h=t.N
 s=8
-return A.J(A.aXu(A.a_x("http",a,b,null),A.aM(["Content-Type","application/json","Access-Control-Allow-Origin","*","X-Authorization",m,"Authorization",B.b.R("Bearer ",m)],h,h)),$async$la)
+return A.J(A.aXu(A.a_x("https",a,b,null),A.aM(["Content-Type","application/json","Access-Control-Allow-Origin","*","X-Authorization",m,"Authorization",B.b.R("Bearer ",m)],h,h)),$async$la)
 case 8:l=e
 s=l.b===200?9:11
 break
@@ -102622,7 +102622,7 @@ return A.V($async$dL,r)},
 zy(a){var s=0,r=A.W(t.z),q=this
 var $async$zy=A.X(function(b,c){if(b===1)return A.T(c,r)
 while(true)switch(s){case 0:s=2
-return A.J(q.d.hs("localhost:8081","api/v1/messages",new A.a3B("admin",q.c.a.a,new A.b6(Date.now(),!1)),a),$async$zy)
+return A.J(q.d.hs("rest.das-ifba-tippspiel.com","api/v1/messages",new A.a3B("admin",q.c.a.a,new A.b6(Date.now(),!1)),a),$async$zy)
 case 2:return A.U(null,r)}})
 return A.V($async$zy,r)},
 G(a){return A.eh(new A.a1T(this),this.dL(),t.N)}}
@@ -102748,7 +102748,7 @@ a2e(a){var s=0,r=A.W(t.N),q,p=2,o,n,m,l,k,j,i,h,g,f
 var $async$mU=A.X(function(b,c){if(b===1){o=c
 s=p}while(true)switch(s){case 0:g=new A.ac4(a.a,a.b)
 p=4
-k=A.a_x("http","localhost:8081","api/v1/auth/login",null)
+k=A.a_x("https","rest.das-ifba-tippspiel.com","api/v1/auth/login",null)
 j=t.N
 j=A.aM(["Content-Type","application/json","Access-Control-Allow-Origin","*"],j,j)
 s=7
@@ -102804,7 +102804,7 @@ j.c=a.c
 j.d=a.d
 j.e=a.e
 p=4
-m=A.a_x("http","localhost:8081","api/v1/auth/register",null)
+m=A.a_x("https","rest.das-ifba-tippspiel.com","api/v1/auth/register",null)
 l=t.N
 l=A.aM(["Content-Type","application/json","Access-Control-Allow-Origin","*"],l,l)
 s=7
