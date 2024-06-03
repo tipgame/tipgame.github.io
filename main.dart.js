@@ -102018,7 +102018,7 @@ o=t.N
 s=A.ak(m,new A.aX(new A.S(10,10,10,10),A.aDp(16,A.ae("Wie weit kommt Deutschland",m,m,m,m,m,m,m,$.c8(),m,m,m),B.tB,18,A.aC(new A.aw(A.b(["Vorrunde","Achtelfinale","Viertelfinale","Halbfinale","Finale","Europameister"],l),new A.alH(),q),!0,p),new A.alI(n),B.HN,r,s,o),m),B.f,m,m,m,m,m,m,m,m,m,m,m)
 r=n.f
 l=A.ak(m,m,B.f,B.mg,m,m,m,2,m,m,m,m,m,m)
-return A.azU(B.jS,A.b([s,A.ak(m,new A.aX(new A.S(10,10,10,10),A.aDp(16,A.ae("Wer wird Weltmeister?",m,m,m,m,m,m,m,$.c8(),m,m,m),B.tB,18,A.aC(new A.aw(k,new A.alJ(),q),!0,p),new A.alK(n),B.HN,l,r,o),m),B.f,m,m,m,m,m,m,m,m,m,m,m)],t.p),B.I3,B.P,B.jS,15,0)},
+return A.azU(B.jS,A.b([s,A.ak(m,new A.aX(new A.S(10,10,10,10),A.aDp(16,A.ae("Wer wird Europameister?",m,m,m,m,m,m,m,$.c8(),m,m,m),B.tB,18,A.aC(new A.aw(k,new A.alJ(),q),!0,p),new A.alK(n),B.HN,l,r,o),m),B.f,m,m,m,m,m,m,m,m,m,m,m)],t.p),B.I3,B.P,B.jS,15,0)},
 ana(a){var s=a.w
 if(s!=null&&a.x!=null)return J.bV(s)+" : "+J.bV(a.x)
 return"vs"},
@@ -110974,7 +110974,7 @@ r($,"b2n","aC4",()=>{var q=null
 return A.lZ(A.bP(q,q,$.pE(),q,q,q,q,q,q,q,q,10,q,q,q,q,q,!0,q,1,q,q,q,q,q,q))})
 r($,"b2f","dC",()=>{var q=null
 return A.lZ(A.bP(q,q,$.pE(),q,q,q,q,q,q,q,q,10,q,q,q,q,q,!0,q,1,q,q,q,q,q,q))})
-r($,"b1W","aLu",()=>A.aNr(2022,11,20,17,0,0,0,0))})();(function nativeSupport(){!function(){var s=function(a){var m={}
+r($,"b1W","aLu",()=>A.aNr(2024,6,14,21,0,0,0,0))})();(function nativeSupport(){!function(){var s=function(a){var m={}
 m[a]=1
 return Object.keys(hunkHelpers.convertToFastObject(m))[0]}
 v.getIsolateTag=function(a){return s("___dart_"+a+v.isolateTag)}
