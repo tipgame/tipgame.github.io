@@ -102206,7 +102206,7 @@ $2(a,b){var s,r,q,p,o,n,m,l,k,j,i,h,g=null,f=b.b
 if(f!=null){s=a.N(t.l).f
 r=A.aCX(B.bb,"Pers\xf6nlicher Punkteverlauf",$.a1n())
 q=A.LT("de")
-p=A.bj(2022,11,20,0,0,0,0,!1)
+p=A.bj(2024,6,13,0,0,0,0,!1)
 if(!A.b0(p))A.t(A.b5(p))
 o=A.k4(g,g,"Normal",12,B.ah,B.v,g)
 n=A.ayc(g,g)
